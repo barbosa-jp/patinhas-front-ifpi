@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+  --cor-branco: #FFFFFF;
+  --cor-rosa: #F79EB1;
+  --cor-roxo: #473469;
+  --cor-verde: #73C773;
+  --cor-lilas: #AE8FBA;
+  --cor-vermelho: #FF4F4F;
+
+  --fonte-titulo: 'Belanosima', sans-serif;
+  --fonte-paragrafo: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  max-width: 100vw;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+@keyframes Girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.link {
+  color: none;
+  text-decoration: none;
+}
+
+.link:link, .link:visited, .link:active {
+  color: var(--cor-branco);
+}
+
+.tema-claro {
+  background-image: var(--cor-branco);
+}
+
+.tema-escuro {
+  background-color: var(--cor-roxo);
+}
+
+/*
+.img-lado {
+  height: 100vh;
+}
+
+.link {
+  color: none;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: none;
+}
+
+.link:link {
+  color: var(--cor-branco)
+}
+
+.link:active {
+  color: none;
+}
+
+.seta {
+  width: 50px;
+}
+
+.down {
+  rotate: 180deg;
+}
+
+.button {
+  background: none;
+  border: none;
+}
+
+.escuro {
+  color: var(--cor-branco);
+}
+
+.claro {
+  color: var(--cor-roxo);
+}
+
+.claro::placeholder {
+  color: var(--cor-roxo);
+  opacity: 80%;
+}
+
+.escuro::placeholder {
+  color: var(--cor-branco);
+  opacity: 80%;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+option[value=''] {
+  opacity: 75%;
+}
+
+.input-escuro {
+  border-bottom: 2px solid var(--cor-branco);
+}
+
+.botao-claro {
+  background-color: var(--cor-roxo);
+  color: var(--cor-branco);
+}
+
+.botao-escuro {
+  background-color: var(--cor-branco);
+  color: var(--cor-roxo);
+} */
